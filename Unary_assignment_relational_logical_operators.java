@@ -4,6 +4,9 @@ public class Unary_assignment_relational_logical_operators {
 
 	public static void main(String[] args) {
 
+
+// casting samples:
+
 		byte b;
 		int i=120;
 		double d=522.33;
