@@ -1,0 +1,47 @@
+package lecture_week2;
+
+public class Unary {
+	
+public static void main (String [] args) {
+	
+	// UNARY OPERATORS:
+	
+			/* 
+			 
+			 ++ -> adds 1 increment number
+			 -- -> substracts 1 increment number
+			 
+			 int var=100;
+			 
+			 var=var+1;
+			 var++;
+			 
+			 ++var / --var  -> pre  -> makes the calculation and shows the result right away
+			 var++ / var--  -> post -> makes the cal. and saves to memory, does not show the result right away
+			 
+			 ! -> makes the boolean to opposite
+			 
+			 */
+			
+			int i1=+10;
+			int i2=-100;
+			int i3 = -(i1+i2);
+			
+			System.out.println(i1++); // 10 -> if it is on the SAME LINE, the post does not show the cal right away.
+			System.out.println(++i1); // 12 -> 11 was added in the memory + 1 = 12;
+			
+			i1++; // same as i1=i1+1;
+			--i2; // same as i2=i2 -1;
+			
+			System.out.println("i1 = " + i1); //13
+			System.out.println("i2 = " + i2); //-101
+			
+			
+			boolean f=true;
+			System.out.println(!f); // prints false.
+			
+			System.out.println("----------------------");
+			
+}
+
+}
