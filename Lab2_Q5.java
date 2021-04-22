@@ -16,7 +16,7 @@ public class Lab2_Q5 {
 		
 		Scanner sc = new Scanner (System.in);
 		System.out.print("Meal costs:$");
-		double charge = sc.nextInt();
+		double charge = sc.nextDouble();
 		
 		double tax = charge*0.0675;
 		double tip = (charge+tax)*0.2;
