@@ -5,6 +5,11 @@ import java.util.Scanner;
 public class Lab2_Q4 {
 
 	public static void main(String[] args) {
+		/*
+		 Write a program that asks user for the number of males and 
+		 the number of females registered in a class. 
+		 The program should display the percentage of males and females in the class.
+		 */
 
 		Scanner sc = new Scanner(System.in);
 		
